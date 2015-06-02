@@ -46,9 +46,7 @@ function draw() {
       if (state===0){
         //start state
         background(200);
-        rotate(-PI/2)
         text('Enable mic and click the mouse to begin recording', 20, 20);
-        rotate(PI/2)
       } else {
         //recording
         background(255,0,0);
